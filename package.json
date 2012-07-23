@@ -1,8 +1,8 @@
 {
-  "name": "nowjs-express-example",
-  "version": "0.0.3",
-  "author": "mdesign83 (Karoly Marton) <m.karoly@martondesign.com>",
-  "description": "This is an example of an embedded chat window added to any site.",
+  "name": "cards-against-humanity",
+  "version": "1.0.0",
+  "author": "Anthony Chen - itsachen.com",
+  "description": "Cards Against Humanity in node.",
   "keywords": [
     "nowjs",
     "express",
