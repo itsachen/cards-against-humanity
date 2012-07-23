@@ -1,0 +1,14 @@
+extends layout
+block content
+  div(id='content')
+    h2 Room #{room_id}
+    div(id='alerts')
+    div(id='playarea', style='width: 800px; height: 400px;')
+    div(id='room_id', style='display: none')
+      #{room_id}
+    div(id='messages')
+    div(style='position: absolute; bottom: 25;)
+    input(type='text', id='text-input')
+    input(type='button', value='Send', id='send-button')
+    input(type='button', value='Start', id='start-button')
+    script(src='/javascript/game.js')
