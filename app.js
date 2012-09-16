@@ -102,7 +102,7 @@ everyone.now.startGame = function(name,room_id){
 
   // New room
   if (gameRooms[room_id] == undefined){
-    room = createRoom(room_id);
+    room = createRoom(room_id); //Group
     room.addUser(this.user.clientId);
     roomobj = gameRooms[room_id];
     roomobj.card_czar = newplayer;
