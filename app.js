@@ -1,6 +1,6 @@
 var port     = 3000;
 var express  = require('express');
-var app      = express.createServer();
+var app      = express();
 var server   = app.listen(port);
 console.log("Express server listening on port " + port);
 
