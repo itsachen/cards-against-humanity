@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "author": "Anthony Chen - itsachen.com",
   "description": "Cards Against Humanity in node.",
-  "keywords": [
-    "nowjs",
-    "express",
-    "example"
-  ],
-  "dependencies" : {
-    "now"     :  "0.8.1",
-    "express" :  "3.0.0",
-    "jade"     : "0.26.3"
+  "dependencies": {
+    "now": "0.8.1",
+    "express": "3.0.0",
+    "jade": "0.26.3"
   },
   "engines": {
-    "node": "0.8.3"
+    "node": "0.8.3",
+    "npm": "1.1.x"
   }
-} 
+}
